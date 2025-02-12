@@ -21,5 +21,5 @@ Install a config file for Nemo to use the WebP thumbnailer.
 
 ## License
 
-[GPL-3.0-or-later](LICENSE)
+[GPL-3.0-or-later](/usr/share/licenses/nemo-webp/LICENSE)
 

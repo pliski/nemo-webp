@@ -1,7 +1,7 @@
 # Maintainer: pliski <pliski@pli.ski>
 _srcname=nemo-webp
 pkgname="$_srcname-git"
-pkgver=1.0.0
+pkgver=1.0.0.r3.c42246d
 pkgrel=1
 pkgdesc="WebP image format support for thumbnails in Nemo"
 arch=('any')
@@ -20,7 +20,7 @@ pkgver() {
 }
 
 package() {
-	cd "$pkgname-$pkgver"
+	cd "$_srcname"
 	mkdir -p "$pkgdir/usr/share/thumbnailers"
 	install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$_srcname/LICENSE"
 	install -Dm644 README.md "$pkgdir/usr/share/doc/$_srcname/README.md"
