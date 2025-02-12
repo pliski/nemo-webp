@@ -1,7 +1,7 @@
 # Maintainer: pliski <pliski@pli.ski>
 _srcname=nemo-webp
 pkgname="$_srcname-git"
-pkgver=1.0.0.r3.c42246d
+pkgver=1.0.0.r5.a1ca2c6
 pkgrel=1
 pkgdesc="WebP image format support for thumbnails in Nemo"
 arch=('any')

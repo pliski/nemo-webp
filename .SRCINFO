@@ -1,6 +1,6 @@
 pkgbase = nemo-webp-git
 	pkgdesc = WebP image format support for thumbnails in Nemo
-	pkgver = 1.0.0.r3.c42246d
+	pkgver = 1.0.0.r5.a1ca2c6
 	pkgrel = 1
 	url = https://github.com/pliski/nemo-webp.git
 	arch = any
